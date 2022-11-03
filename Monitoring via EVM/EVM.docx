@@ -1,0 +1,78 @@
+Time Frame 13 m
+project started 7 m ago 
+
+1- By how much it's over/under budget?
+
+    preparation D=2M    budget = 600K  AC = 600K 100%
+    Design      D=3M    budget = 1200  AC = 1400K (OVER BUDGET BY 200K) 100%
+    Imp         D=2M    budget = 400   AC = 200K  50%
+    Testing     D=3M    budget = 1200  AC = 500K (OVER BUDGET BY 100K) 33.3%
+    Deployment  D=3M    budget = 300   AC = 0 0%
+
+- we are over buget by 200k from design and 100K from Testing
+over budget by 300k
+
+
+2- By how many days it's ahead/behind schedule?
+
+    ∵ The project started 7 M ago
+    ∵ only 50% of the Implemention is done in 2M duration 
+    ∵ 33.33% of the Testing is done in the 7th month 
+    ∴ the Project is behind schedule by 20 days or 1 month as the testing depends on the implementation (Estimation: an extra 2 months will be needed for the implementation task to be done)
+
+3- By the end of the project, by how much will it be over/under buget?
+
+    ∵ Desing task is over budget by 200K
+    ∵ Testing task is over budget by 100K in one month
+    ∵ only 50% is done in the implementation's duration (maybe an extra employees will be needed)
+    ∴ The project will be over budget by +500K
+
+
+Formula:
+
+CV:     Cost variance
+EV:     Earned Value
+AC:     Actual Value
+BAC:    Budget at completion (agreed-upon or approved total spending for the project) (3,700)
+SV:     Schedule Variance (SV equals the difference between your project’s earned value and planned value)
+PV:     Planned value (any work scheduled to be completed)
+cpi:    Cost Performance Index
+SPI:    schedule performance index (measure of the conformance of actual progress)
+EAC:    Estimate at Completion is the current expectation
+After 7 months
+1- Cost variance: CV = EV – AC (difference between earned value and actual costs)
+    
+    Ac = 600+1400+200+500 = 2,700K 
+    EV = Percent complete (actual) x Task Budget 
+                 = (% completed work) * (BAC)
+                 = 600+1400+(0.5x400)+(0.33*1200) 
+                 = 2,600K
+    CV = EV – AC
+       = 2600 - 2700
+       = -100K
+
+
+2- Schedule Variance: SV = EV – PV
+    PV = (% scheduled work) * (BAC)
+       = 3*2,200
+       =6600
+       
+    SV = EV – PV
+       = 2,600-400
+       = 2200K
+
+3- cpi:earned value (EV) / actual cost (AC)
+    cpi = EV/AC
+        = 2600/2700
+        = 0.96
+        >1 project is over budget
+
+4- SPI:
+    SPI = EV / PV
+        = 2600/6600
+        = 0.4
+        less than 1.0 indicates poorer-than-planned project
+        
+5- EAC = BAC/cpi
+        =2200/0.96
+        =2,291.6
